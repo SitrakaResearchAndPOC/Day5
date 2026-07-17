@@ -672,6 +672,7 @@ openssl x509 -req -in Serveur.demande -out Serveur.cert -CA Aoutorite.cert -CAke
 ```
 openssl x509 -in Serveur.cert -subject -issuer -fingerprint -dates -noout
 ```
+
 ```
 scp Autorite.cert root@<IP of server):<Path of server>
 ```
