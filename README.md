@@ -654,7 +654,6 @@ Create a demand of certificate (no days and no x509)
 openssl req -new -key Serveur.key -out Serveur.demande
 ```
 
-```
 [AU] : TN </br>
 [some-state] : TUNISIE  </br>
 (city) : Centre urbain  </br>
@@ -664,6 +663,7 @@ openssl req -new -key Serveur.key -out Serveur.demande
 email : monsite@gmail.com  </br>
 </br>
 Copy at CA
+
 ```
 scp Serveur.demande root@<IP of CA>:<Path of CA>
 ```
